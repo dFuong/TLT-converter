@@ -2,8 +2,11 @@
 
 `
 TensorRT version: 7.2.2-1
-CUDa version: 11.1
+
+CUDA version: 11.1
+
 CUDNN version: 8.0.5
+
 `
 
 **Installation instructions:**
