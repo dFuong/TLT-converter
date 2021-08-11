@@ -1,8 +1,8 @@
 # This document captures simple instructions to run the TLT converter _engine_ for the x86 platform
 
--TensorRT version: 7.2.2-1
--CUDa version: 11.1
--CUDNN version: 8.0.5
+TensorRT version: 7.2.2-1
+CUDa version: 11.1
+CUDNN version: 8.0.5
 
 **Installation instructions:**
 
