@@ -11,6 +11,8 @@ CUDNN version: 8.0.5
 
 You can follow the approprivate version tlt-converter for Hardware: [TLT-converter](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_TLT_integration.html#id16)
 
+Check version TensorRT: 'dpkg -l | grep TensorRT'
+
 1. Copy the executable to the target device 
 2. Install openssl library using the following commam.
     
