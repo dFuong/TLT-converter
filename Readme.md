@@ -40,7 +40,10 @@ In Int8 mode, when using calibration table generated from the TLT v1.0 GA docker
 
 
 **Sample usage:**
-
+    
+    Inital running:
+    $chmod +x tlt-converter
+    
     Sample:
     $./tlt-converter resnet34_peoplenet_pruned.etlt -k tlt_encode -c resnet34_peoplenet_int8.txt -o output_cov/Sigmoid,output_bbox/BiasAdd -d channel,height,width -i nchw -e peoplenet34_int8.engine -m $MAX_BATCH_SIZE -t $INFERENCE_PRECISION -b $BATCH_SIZE
     
