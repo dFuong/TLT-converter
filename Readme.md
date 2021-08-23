@@ -45,7 +45,9 @@ In Int8 mode, when using calibration table generated from the TLT v1.0 GA docker
     $./tlt-converter resnet34_peoplenet_pruned.etlt -k tlt_encode -c resnet34_peoplenet_int8.txt -o output_cov/Sigmoid,output_bbox/BiasAdd -d channel,height,width -i nchw -e peoplenet34_int8.engine -m $MAX_BATCH_SIZE -t $INFERENCE_PRECISION -b $BATCH_SIZE
     Example:
     $./tlt-converter peoplenet_v2/resnet34_peoplenet_pruned.etlt -k tlt_encode -c peoplenet_v2/resnet34_peoplenet_int8.txt -o output_cov/Sigmoid,output_bbox/BiasAdd -d 3,544,960 -i nchw -e peoplenet_resnet34_int8.engine -m 1 -t int8 
-
+    
+    tlt_encode = KEY-TLT
+    
 **After achived file engine, you can check inference:**
 
 Type: detectnet_v2,maskrcnn,unet [Model-arch](https://docs.nvidia.com/tlt/tlt-user-guide/text/deepstream_tlt_integration.html#id2)
