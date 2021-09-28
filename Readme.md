@@ -9,7 +9,7 @@ CUDNN version: 8.0.5
 
 **Installation instructions:**
 
-You can follow the approprivate version tlt-converter for Hardware: [TLT-converter](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_TLT_integration.html#id16)
+You can follow the approprivate version tlt-converter for Hardware: [TLT-converter](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_TLT_integration.html#id16) or [TAO-converter](https://developer.nvidia.com/tao-toolkit-get-started#:~:text=GETTING%20STARTED%20RESOURCES)
 
 Check version TensorRT: `dpkg -l | grep TensorRT`
 
