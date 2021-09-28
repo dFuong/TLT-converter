@@ -9,7 +9,7 @@ CUDNN version: 8.0.5
 
 **Installation instructions:**
 
-You can follow the approprivate version tlt-converter for Hardware: [TLT-converter](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_TLT_integration.html#id16) or [TAO-converter](https://developer.nvidia.com/tao-toolkit-get-started#:~:text=GETTING%20STARTED%20RESOURCES)
+You can follow the approprivate version TLT-converter or TAO-converter (TLT-upgraded) for Hardware: [TLT-converter](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_TLT_integration.html#id16) or [TAO-converter](https://developer.nvidia.com/tao-toolkit-get-started#:~:text=Detection%20%26%20Slot%20Tagging-,Vision%20AI,-Computer%20vision%20models)
 
 Check version TensorRT: `dpkg -l | grep TensorRT`
 
@@ -37,7 +37,7 @@ In Int8 mode, when using calibration table generated from the TLT v1.0 GA docker
 
 3. Save the edited file with the new changes. 
 4. Use this file with `tlt-converter` to generate the engine.
-
+5. Running TAO-converter as same as TLT-coverter.
 
 **Sample usage:**
     
